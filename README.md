@@ -2,6 +2,12 @@
 
 This project provides an MCP server that enables posting text, images, and videos to LinkedIn, generating images with OpenAI, searching the web with Brave, and executing SQL queries on a local database.
 
+## Demo
+
+[![Watch the demo](https://img.youtube.com/vi/mLuDXDt9OqM/hqdefault.jpg)](https://youtu.be/mLuDXDt9OqM)
+
+Click the image above or [watch on YouTube](https://youtu.be/mLuDXDt9OqM).
+
 ## Prerequisites
 
 - Python 3.10+
