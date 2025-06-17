@@ -58,7 +58,6 @@ uv run mcp install server.py --with requests --with openai -f .env
 - The first time you run `oauth.py`, it will guide you through LinkedIn authentication.
 - The MCP server exposes tools for integration with Claude Desktop.
 
----
 
 For more details, see the source files:
 
