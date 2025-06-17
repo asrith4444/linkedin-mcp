@@ -1,10 +1,10 @@
 # server.py
 from mcp.server.fastmcp import FastMCP
-from client import LinkedInClient
-from config import AUTHOR_URN
+from utils.client import LinkedInClient
+from utils.config import AUTHOR_URN
 import os
-from gpt_image import generate_and_save_image
-from brave import brave_search, extract_titles_and_descriptions
+from utils.gpt_image import generate_and_save_image
+from utils.brave import brave_search, extract_titles_and_descriptions
 import sqlite3
 import json
 

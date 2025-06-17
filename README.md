@@ -36,7 +36,7 @@ Click the image above or [watch on YouTube](https://youtu.be/mLuDXDt9OqM).
    Run the following command to sign in and populate `ACCESS_TOKEN` and `AUTHOR_URN` in your `.env`:
 
     ```sh
-    python oauth.py
+    python utils/oauth.py
     ```
 
    This will open a browser window for LinkedIn login and update your `.env` automatically.
@@ -68,5 +68,8 @@ uv run mcp install server.py --with requests --with openai -f .env
 For more details, see the source files:
 
 - [server.py](server.py)
-- [client.py](client.py)
-- [oauth.py](oauth.py)
+- [config.py](utils/config.py)
+- [client.py](utils/client.py)
+- [oauth.py](utils/oauth.py)
+- [brave.py](utils/brave.py)
+- [gpt_image.py](utils/gpt_image.py)

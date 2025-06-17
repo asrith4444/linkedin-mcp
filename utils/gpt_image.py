@@ -2,7 +2,7 @@ from openai import OpenAI
 import os
 import base64
 from pathlib import Path
-from config import OPEN_AI_API_KEY
+from utils.config import OPEN_AI_API_KEY
 # ─── Configuration ────────────────────────────────────────────────────────────
 
 # Initialize the OpenAI client (reads OPENAI_API_KEY from env)

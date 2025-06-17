@@ -1,7 +1,7 @@
 import requests
 import json
 from typing import List, Dict
-from config import BRAVE_API_KEY
+from utils.config import BRAVE_API_KEY
 
 def brave_search(query: str, count: int = 5, search_lang: str = "en") -> dict:
     """

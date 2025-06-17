@@ -1,6 +1,6 @@
 import mimetypes
 import requests
-from config import ACCESS_TOKEN, FOLDER_PATH
+from utils.config import ACCESS_TOKEN, FOLDER_PATH
 import os
 
 
